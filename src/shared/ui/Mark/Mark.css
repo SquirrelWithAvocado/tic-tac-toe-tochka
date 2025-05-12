@@ -1,0 +1,24 @@
+.mark {
+    position: relative;
+
+    width: 25%;
+    height: 100%;
+}
+
+.mark__animation {
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+}
+
+.mark__button {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
